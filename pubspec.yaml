@@ -1,0 +1,23 @@
+name: myapp
+description: My App
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_messaging: "^1.0.2"
+  flutter_local_notifications: "^0.3.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^0.10.0
+  jaguar_serializer_cli: ^2.1.0
+  flutter_launcher_icons: "^0.6.1"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
